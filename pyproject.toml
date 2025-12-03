@@ -1,0 +1,17 @@
+[project]
+name = "ml-cookbook"
+version = "0.1.0"
+description = "Collection of Jupyter notebooks implementing programs from Machine Learning with Python Cookbook."
+authors = [
+    { name = "Vipin Kumar", email = "krvipin15@tutamail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+dependencies = [
+    "ipykernel>=7.1.0",
+    "numpy>=2.3.5",
+    "pandas>=2.3.3",
+    "scipy>=1.16.3",
+]
